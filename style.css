@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 7, 38);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-family:poppins;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #a4caf5;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.separator {
+    height: 2px;
+    background-color: #a4caf5;
+    width: 50%;
+    margin:  20px auto;
+    opacity:60%;
+}
+
+.text1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #f99bfc;
+    margin-top:20px;
+}
+
+.text2 {
+    font-size: 1.3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #90d2f3;
+    padding: 0 10px;
+    text-align:center;
+
+    
+}
+
+.text3 {
+    font-size: 1.3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    color: #90d2f3;
+
+
+}
+
+.code {
+    margin-top: 40px;
+}
+
+.t1 {
+    font-size: 1.8em;
+    color: #e5fbb5;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.t2 {
+    font-size: 2.5em;
+    color: #fa5eb7;
+    font-weight: bold;
+    /* background-color: #93a2c4; */
+    padding: 30px auto;
+    border-radius:5px;
+    margin-bottom: 30px;
+    /* transition: background-color 0.3s; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.register button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    background-color:#a4caf5; 
+    color: #04149f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    
+    /* Shaking Animation */
+    animation: shake 2s infinite, bounce 1s infinite alternate;
+}
+.footer1{
+    color:#f99bfc;
+}
+.footer2{
+    color:#90d2f3
+}
+
+.register button:hover {
+    background-color: #f99bfc;
+}
+/* .t2:hover {
+    background-color: #9fc0e6;
+} */
+/* Shaking Animation */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+}
+/* Bouncing Animation */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .text1, .text2, .text3 {
+        font-size: 1.2em;
+    }
+
+    .t2 {
+        font-size: 2em;
+    }
+
+    .register button {
+        font-size: 1.2em;
+        padding: 12px 25px;
+    }
+}
